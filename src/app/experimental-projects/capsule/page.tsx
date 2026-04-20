@@ -50,7 +50,7 @@ export default function CapsulePage() {
       <section className="py-16 md:py-24 bg-peach/30">
         <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
           <p className="text-sm uppercase tracking-[0.2em] text-warmgray mb-4">
-            Experimental Projects
+            Experiments
           </p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight mb-8">
             Capsule
@@ -63,7 +63,7 @@ export default function CapsulePage() {
           <div className="w-16 h-px bg-coral mb-8" />
           
           <p className="text-sm text-warmgray">
-            Tools: Factory, OpenAI API, Code
+            Tools: Factory, OpenAI API, Next.js
           </p>
         </div>
       </section>
@@ -105,26 +105,7 @@ export default function CapsulePage() {
         </div>
       </section>
 
-      {/* The Experiment */}
-      <section className="py-16 md:py-24 bg-peach/20">
-        <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
-          <div className="grid md:grid-cols-12 gap-8 md:gap-12">
-            <div className="md:col-span-4">
-              <p className="text-sm uppercase tracking-[0.2em] text-warmgray">
-                The Experiment
-              </p>
-            </div>
-            <div className="md:col-span-8">
-              <p className="text-lg leading-relaxed">
-                Capsule explores AI as a creative partner - generating outfit possibilities from a fixed 
-                wardrobe to test whether constraint can increase, rather than limit, creative expression.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Insights Section - MOVED ABOVE Experience */}
+      {/* Insights Section */}
       <section className="py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
           <div className="grid md:grid-cols-12 gap-8 md:gap-12">
@@ -187,16 +168,35 @@ export default function CapsulePage() {
         </div>
       </section>
 
-      {/* Link Section */}
-      <section className="py-12 border-y border-sand">
-        <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-16 text-center">
-          <a
-            href="#"
-            className="inline-flex items-center text-terracotta hover:text-coral transition-colors group"
-          >
-            <span>View Full Experience on GitHub</span>
-            <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
-          </a>
+      {/* Full Walkthrough Video Section */}
+      <section className="py-16 md:py-24 border-t border-sand">
+        <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
+          <div className="text-center mb-10">
+            <p className="text-sm uppercase tracking-[0.2em] text-warmgray mb-4">
+              Full Walkthrough
+            </p>
+            <h2 className="text-2xl md:text-3xl font-light mb-4">
+              See the Complete Experience
+            </h2>
+            <p className="text-warmgray max-w-2xl mx-auto">
+              Watch how Capsule transforms everyday styling decisions into moments of creative exploration.
+            </p>
+          </div>
+          
+          <div className="max-w-4xl mx-auto">
+            <div className="aspect-video bg-cream/80 rounded-lg overflow-hidden shadow-lg">
+              <video
+                className="w-full h-full object-cover"
+                controls
+                playsInline
+                preload="metadata"
+              >
+                <source src="/videos/capsule-walkthrough.mov" type="video/quicktime" />
+                <source src="/videos/capsule-walkthrough.mov" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
         </div>
       </section>
     </div>

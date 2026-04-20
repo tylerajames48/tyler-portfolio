@@ -34,7 +34,7 @@ export default function RewritingTheRulesPage() {
       <section className="py-16 md:py-24 bg-peach/30">
         <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
           <p className="text-sm uppercase tracking-[0.2em] text-warmgray mb-4">
-            Experimental Projects
+            Experiments
           </p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight mb-8">
             Rewriting the Rules
@@ -84,27 +84,7 @@ export default function RewritingTheRulesPage() {
         </div>
       </section>
 
-      {/* The Experiment */}
-      <section className="py-16 md:py-24 bg-peach/20">
-        <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
-          <div className="grid md:grid-cols-12 gap-8 md:gap-12">
-            <div className="md:col-span-4">
-              <p className="text-sm uppercase tracking-[0.2em] text-warmgray">
-                The Experiment
-              </p>
-            </div>
-            <div className="md:col-span-8">
-              <p className="text-lg leading-relaxed">
-                The project first generates Haudenosaunee scenes through text prompts to surface the
-                model&apos;s biases, then reworks those same scenes through visual interventions that
-                challenge and shift those outputs.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Insights Section - Moved above Outputs */}
+      {/* Insights Section */}
       <section className="py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
           <div className="grid md:grid-cols-12 gap-8 md:gap-12">
@@ -170,13 +150,13 @@ export default function RewritingTheRulesPage() {
                     </p>
                   </div>
 
-                  {/* Intervention */}
+                  {/* Intervention - special handling for small images */}
                   <div>
-                    <div className="aspect-square bg-cream/80 mb-4 rounded overflow-hidden">
+                    <div className="aspect-square bg-black mb-4 rounded overflow-hidden flex items-center justify-center">
                       <img 
                         src={example.interventionImage} 
                         alt={`Intervention - Example ${example.id}`}
-                        className="w-full h-full object-cover"
+                        className={example.id === 2 ? "max-w-[70%] max-h-[70%] object-contain" : "w-full h-full object-cover"}
                       />
                     </div>
                     <p className="text-xs text-terracotta uppercase tracking-wider mb-3">Intervention</p>

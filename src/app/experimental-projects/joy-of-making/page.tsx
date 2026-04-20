@@ -112,7 +112,7 @@ export default function JoyOfMakingPage() {
       <section className="py-16 md:py-24 bg-peach/30">
         <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
           <p className="text-sm uppercase tracking-[0.2em] text-warmgray mb-4">
-            Experimental Projects
+            Experiments
           </p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight mb-8">
             The Joy of Making
@@ -158,26 +158,7 @@ export default function JoyOfMakingPage() {
         </div>
       </section>
 
-      {/* The Experiment */}
-      <section className="py-16 md:py-24 bg-peach/20">
-        <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
-          <div className="grid md:grid-cols-12 gap-8 md:gap-12">
-            <div className="md:col-span-4">
-              <p className="text-sm uppercase tracking-[0.2em] text-warmgray">
-                The Experiment
-              </p>
-            </div>
-            <div className="md:col-span-8">
-              <p className="text-lg leading-relaxed">
-                Participants begin a painting with a machine, then complete it by hand, while their
-                emotional state is tracked and translated into a visual artifact.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Insights Section - MOVED ABOVE Experience */}
+      {/* Insights Section */}
       <section className="py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
           <div className="grid md:grid-cols-12 gap-8 md:gap-12">

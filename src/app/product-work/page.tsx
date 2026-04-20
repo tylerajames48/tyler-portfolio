@@ -5,7 +5,7 @@ export default function ProductWorkPage() {
       <section className="py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight mb-6">
-            Product Work
+            Product
           </h1>
           <p className="text-warmgray text-lg md:text-xl max-w-2xl">
             A selection of products I led as product manager, from concept to launch
@@ -142,6 +142,30 @@ export default function ProductWorkPage() {
                   →
                 </span>
               </a>
+            </div>
+          </article>
+
+          {/* Archived Jobs - Image on right */}
+          <article className="grid md:grid-cols-12 gap-8 md:gap-12 items-center">
+            <div className="md:col-span-5">
+              <span className="text-sm text-coral mb-4 block">05</span>
+              <h2 className="text-2xl md:text-3xl font-light mb-4">
+                Archived Jobs
+              </h2>
+              <p className="text-warmgray leading-relaxed">
+                An automated experience that moves inactive listings into an archive, giving users 
+                a clearer view of active opportunities while preserving past roles for reference 
+                and follow-up.
+              </p>
+            </div>
+            <div className="md:col-span-7">
+              <div className="aspect-video bg-peach/50 rounded overflow-hidden">
+                <img 
+                  src="/images/product-work/archive.png" 
+                  alt="Archived Jobs"
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
           </article>
 

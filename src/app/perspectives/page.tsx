@@ -28,10 +28,10 @@ export default function PerspectivesPage() {
       <section className="py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight mb-6">
-            Perspectives
+            Research & Analysis
           </h1>
           <p className="text-warmgray text-lg md:text-xl max-w-2xl">
-            Writing on creativity, technology, and how we make meaning
+            Research & analysis on creativity, technology, and how we make meaning
           </p>
           <div className="w-16 h-px bg-terracotta mt-8" />
         </div>
