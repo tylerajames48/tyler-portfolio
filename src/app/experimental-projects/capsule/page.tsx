@@ -83,7 +83,7 @@ export default function CapsulePage() {
               </p>
               
               <p className="text-lg leading-relaxed">
-                Capsule is an AI-powered fashion styling tool built as a one-month behavioral experiment. 
+                Capsule is an AI-powered fashion styling tool built for a one-month behavioral experiment. 
                 The test: could AI support everyday creativity without increasing consumption or cognitive load?
               </p>
               
