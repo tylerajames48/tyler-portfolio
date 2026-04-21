@@ -131,11 +131,13 @@ export default function CreativeWorkPage() {
         <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
           <div className="grid md:grid-cols-12 gap-8 md:gap-12 items-center">
             <div className="md:col-span-7 md:order-1">
-              <div className="aspect-[4/3] bg-cream/80 rounded overflow-hidden">
-                <img 
-                  src="/images/creative-work/lty.png" 
-                  alt="Love Thy Neighbor"
-                  className="w-full h-full object-cover"
+              <div className="aspect-video rounded overflow-hidden shadow-lg">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/-kiVJD-xW1A"
+                  title="Love Thy Neighbor"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
                 />
               </div>
             </div>
@@ -145,19 +147,10 @@ export default function CreativeWorkPage() {
               <p className="text-sm text-warmgray mb-6">Archival Film</p>
               <p className="text-lg leading-relaxed">
                 As our world becomes increasingly digitized, questions of who owns history - and whose 
-                stories are preserved - become more urgent.{" "}
-                <a
-                  href="https://drive.google.com/file/d/1RsEZfFA6SS9VkH05AiwCn-8ELNAiWu32/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="italic text-terracotta hover:text-coral transition-colors"
-                >
-                  Love Thy Neighbor
-                </a>{" "}
-                draws from my own archive to preserve lived experience as meaning, not just information. 
-                It captures my mother&apos;s experience attending a Catholic high school in Staten Island 
-                in the late 1970s, where the promise of Christian values stood in tension with the racism 
-                she experienced.
+                stories are preserved - become more urgent. Love Thy Neighbor draws from my own archive 
+                to preserve lived experience as meaning, not just information. It captures my 
+                mother&apos;s experience attending a Catholic high school in Staten Island in the late 
+                1970s, where the promise of Christian values stood in tension with the racism she experienced.
               </p>
             </div>
           </div>
