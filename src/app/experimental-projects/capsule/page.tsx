@@ -184,17 +184,14 @@ export default function CapsulePage() {
           </div>
           
           <div className="max-w-4xl mx-auto">
-            <div className="aspect-video bg-cream/80 rounded-lg overflow-hidden shadow-lg">
-              <video
-                className="w-full h-full object-cover"
-                controls
-                playsInline
-                preload="metadata"
-              >
-                <source src="/videos/capsule-walkthrough.mov" type="video/quicktime" />
-                <source src="/videos/capsule-walkthrough.mov" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+            <div className="aspect-video rounded-lg overflow-hidden shadow-lg">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/61Eq2A_zrlg"
+                title="Capsule Walkthrough"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </div>
           </div>
         </div>
