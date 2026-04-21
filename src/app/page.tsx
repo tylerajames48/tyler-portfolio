@@ -22,9 +22,7 @@ export default function Home() {
               <p className="text-lg md:text-xl leading-relaxed text-warmgray">
                 I see AI as a medium, like paint or clay - full of possibility when artists, engineers, 
                 and dreamers build together. From fintech to fashion tech, I&apos;ve built products that 
-                make complex ideas feel human - helping people learn, create, and express ideas in new ways. 
-                Now I&apos;m exploring how AI can amplify imagination and connection. I love working with teams 
-                that empower the next generation of artists, curators, and storytellers.
+                make complex ideas feel human - helping people learn, create, and express ideas in new ways.
               </p>
             </div>
           </div>

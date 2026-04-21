@@ -27,7 +27,7 @@ export default function ProductWorkPage() {
               </h2>
               <p className="text-warmgray leading-relaxed">
                 A centralized experience for tracking dividends and recurring income on Public.com, 
-                helping users understand how their portfolio generates returns over time.
+                helping users understand how their investment portfolio generates returns over time.
               </p>
             </div>
             <div className="md:col-span-7">
@@ -150,7 +150,7 @@ export default function ProductWorkPage() {
             <div className="md:col-span-5">
               <span className="text-sm text-coral mb-4 block">05</span>
               <h2 className="text-2xl md:text-3xl font-light mb-4">
-                Archived Jobs
+                Archived Jobs (LinkedIn)
               </h2>
               <p className="text-warmgray leading-relaxed">
                 An automated experience that moves inactive listings into an archive, giving users 
@@ -159,11 +159,11 @@ export default function ProductWorkPage() {
               </p>
             </div>
             <div className="md:col-span-7">
-              <div className="aspect-video bg-peach/50 rounded overflow-hidden">
+              <div className="bg-peach/50 rounded overflow-hidden">
                 <img 
                   src="/images/product-work/archive.png" 
-                  alt="Archived Jobs"
-                  className="w-full h-full object-cover"
+                  alt="Archived Jobs (LinkedIn)"
+                  className="w-full h-auto object-contain"
                 />
               </div>
             </div>

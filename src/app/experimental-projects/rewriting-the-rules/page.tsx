@@ -11,9 +11,9 @@ const examples = [
     beforeImage: "/images/experimental/rewriting-the-rules/before1.png",
     beforeDescription: "The outputs defaulted to historical or traditional imagery, failing to incorporate any visible futurism - despite explicit prompting - resulting in scenes that reflect the past rather than imagining Indigenous governance, technology, and space in the future.",
     interventionImage: "/images/experimental/rewriting-the-rules/intervention1.jpg",
-    interventionDescription: "I referenced an image from the Stanford Torus space settlements studies (NASA, 1975), where long interior corridors and branching communal spaces mirror the spatial logic of a longhouse in a futuristic form.",
+    interventionDescription: "I referenced an image from the Stanford Torus space settlement studies (NASA, 1975), where long interior corridors and branching communal spaces echo the spatial logic of the longhouse, a structure central to Haudenosaunee culture, reimagined in a futuristic context.",
     afterImage: "/images/experimental/rewriting-the-rules/after1.png",
-    afterDescription: "The intervention grounded the scenes in a coherent spatial logic, translating longhouse structures - central to Haudenosaunee culture - into a futuristic context with embedded technology and clearer social organization, shifting the outputs from generic sci-fi or historical imagery toward a more integrated and legible vision of Indigenous futurity.",
+    afterDescription: "The intervention grounded the scenes in a coherent spatial logic, translating longhouse structures into a futuristic context with embedded technology and clearer social organization, shifting the outputs from generic sci-fi or historical imagery toward a more integrated and legible vision of Indigenous futurity.",
   },
   {
     id: 2,

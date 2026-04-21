@@ -31,7 +31,7 @@ export default function PerspectivesPage() {
             Research & Analysis
           </h1>
           <p className="text-warmgray text-lg md:text-xl max-w-2xl">
-            Research & analysis on creativity, technology, and how we make meaning
+            Research I&apos;ve conducted on creativity, technology, and meaning-making
           </p>
           <div className="w-16 h-px bg-terracotta mt-8" />
         </div>

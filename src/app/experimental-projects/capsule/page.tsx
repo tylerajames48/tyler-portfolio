@@ -83,9 +83,14 @@ export default function CapsulePage() {
               </p>
               
               <p className="text-lg leading-relaxed">
-                Capsule is an AI-powered styling tool that helps users remix their existing wardrobe 
-                into new, unexpected combinations. Designed to reduce decision fatigue while expanding 
-                creative possibility, it treats constraint not as limitation, but as a catalyst for expression.
+                Capsule is an AI-powered fashion styling tool built as a one-month behavioral experiment. 
+                The test: could AI support everyday creativity without increasing consumption or cognitive load?
+              </p>
+              
+              <p className="text-lg leading-relaxed">
+                For 30 days, I used the tool regularly while restricting myself to only what I already owned, 
+                using AI to remix my wardrobe into new combinations. The system treats constraint not as 
+                limitation, but as a catalyst for expression.
               </p>
               
               <p className="text-lg leading-relaxed text-warmgray">

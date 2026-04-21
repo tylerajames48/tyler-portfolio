@@ -99,9 +99,10 @@ export default function CreativeWorkPage() {
               <p className="text-lg leading-relaxed mb-6">
                 Eat, Paint, Love, published in Stanford Graduate School of Business&apos;s magazine{" "}
                 <em>non-disclosure</em>, reflects on my experience solo traveling in Florence, where 
-                the idea of independence - so often framed as self-sufficiency - began to unravel. 
-                This piece invites readers to rethink not just how we travel, but how we define 
-                strength - and to stop treating the desire for connection as something to overcome.
+                I studied painting as part of an intensive art course. Through that process, the idea 
+                of independence, so often framed as self-sufficiency, began to unravel. This piece 
+                invites readers to rethink not just how we travel, but how we define strength - and 
+                to stop treating the desire for connection as something to overcome.
               </p>
               <a
                 href="https://drive.google.com/file/d/1ZLkw97QdonrRkDawjWowHWtMYuoklA2q/view?usp=sharing"
@@ -144,7 +145,7 @@ export default function CreativeWorkPage() {
             <div className="md:col-span-5 md:order-2">
               <span className="text-sm text-coral mb-4 block">02</span>
               <h2 className="text-2xl md:text-3xl font-light mb-2">Love Thy Neighbor</h2>
-              <p className="text-sm text-warmgray mb-6">Archival Film</p>
+              <p className="text-sm text-warmgray mb-6">Archival film</p>
               <p className="text-lg leading-relaxed">
                 As our world becomes increasingly digitized, questions of who owns history - and whose 
                 stories are preserved - become more urgent. Love Thy Neighbor draws from my own archive 
@@ -162,7 +163,8 @@ export default function CreativeWorkPage() {
         <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
           <div className="mb-12 md:mb-16">
             <span className="text-sm text-coral mb-4 block">03</span>
-            <h2 className="text-2xl md:text-3xl font-light mb-4">Painting Samples</h2>
+            <h2 className="text-2xl md:text-3xl font-light mb-2">Painting Samples</h2>
+            <p className="text-sm text-warmgray mb-4">Oil paintings</p>
             <p className="text-lg leading-relaxed max-w-3xl text-warmgray">
               These paintings were completed while living in Florence, where I spent time studying 
               and practicing classical techniques. The process became less about precision, and more 
