@@ -16,13 +16,13 @@ export default function Home() {
             {/* Intro - Right side */}
             <div className="md:col-span-7 space-y-6">
               <p className="text-xl md:text-2xl leading-relaxed font-light">
-                An artist at heart, I&apos;m guided by a simple question: how can technology 
-                help creativity thrive - not disappear?
+                Most AI products optimize for efficiency. I&apos;m interested in what happens 
+                when we optimize for imagination instead.
               </p>
               <p className="text-lg md:text-xl leading-relaxed text-warmgray">
-                I see AI as a medium, like paint or clay - full of possibility when artists, engineers, 
-                and dreamers build together. From fintech to fashion tech, I&apos;ve built products that 
-                make complex ideas feel human - helping people learn, create, and express ideas in new ways.
+                I see AI as a creative medium - like paint or clay - where the outcome depends on 
+                who&apos;s shaping it. My work spans fintech and fashion tech, building systems that 
+                make abstract ideas tangible and give people new ways to create, not just faster ways to decide.
               </p>
             </div>
           </div>

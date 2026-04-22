@@ -63,21 +63,29 @@ export default function RewritingTheRulesPage() {
             </div>
             <div className="md:col-span-8 space-y-6">
               <p className="text-lg leading-relaxed">
-                Rewriting the Rules explores how generative AI reshapes culturally specific imagery
-                through inherited bias.
-              </p>
-
-              <p className="text-lg leading-relaxed text-warmgray">
-                Using Midjourney, the project generates Haudenosaunee scenes through text prompts, surfacing
-                how Western assumptions around gender, care, and power appear even within non-Western
-                contexts. These same scenes are then reworked through targeted interventions -
-                introducing visual inputs intended to disrupt those patterns and shift how they are
-                rendered.
+                Rewriting the Rules exposes how generative AI carries cultural bias forward, even when 
+                asked to imagine something different.
               </p>
 
               <p className="text-lg leading-relaxed">
-                The resulting images reveal how AI-generated futures are shaped by the past, inviting
-                viewers to question the neutrality of these representations.
+                Using Midjourney, I generated Haudenosaunee scenes through text prompts. Despite specifying 
+                non-Western contexts, the outputs consistently reflected Western assumptions about gender, 
+                care, and power.
+              </p>
+
+              <p className="text-lg leading-relaxed">
+                I then introduced targeted visual interventions, using image-to-image generation to disrupt 
+                those patterns and shift how the scenes were rendered.
+              </p>
+
+              <p className="text-lg leading-relaxed">
+                The shift made one thing clear: <strong>the system was not imagining freely. It was 
+                defaulting to what it already knew.</strong>
+              </p>
+
+              <p className="text-lg leading-relaxed text-warmgray">
+                This project makes that visible. AI-generated imagery does not start from scratch. 
+                <strong> It inherits a point of view.</strong>
               </p>
             </div>
           </div>

@@ -2,20 +2,20 @@ const articles = [
   {
     title: "From Creative-AI as a Tool to Creative-AI as a Medium?",
     subheader:
-      "What technical and social forces are driving this change, which debates define it, and what might it mean for different stakeholders?",
+      "Creative AI is no longer just a tool. It is emerging as a new medium with its own constraints, aesthetics, and creative norms.",
     link: "https://ctrlaltcreate48.substack.com/cp/174635345",
     image: "/images/perspectives/creative-ai-medium.jpg",
   },
   {
     title: "Missing Intuition: Why Embodied Creativity Still Matters in the Age of AI",
-    subheader: "Exploring the Role of the Body in AI-Human Collaboration",
+    subheader: "AI can simulate creativity, but it cannot replicate the embodied intuition that makes creative work feel real.",
     link: "https://ctrlaltcreate48.substack.com/p/missing-intuition-why-embodied-creativity",
     image: "/images/perspectives/missing-intuition.webp",
   },
   {
     title: "The Control Paradox: What Creative Professionals Really Want from AI",
     subheader:
-      "How the language of \"control\" reveals deeper tensions about creativity, agency, and the future of human-AI collaboration",
+      "Creatives don't want total control over AI. They want the right balance between agency and surprise.",
     link: "https://ctrlaltcreate48.substack.com/p/the-control-paradox-what-creative",
     image: "/images/perspectives/control-paradox.webp",
   },

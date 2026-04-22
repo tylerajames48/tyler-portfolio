@@ -79,6 +79,11 @@ export default function AboutPage() {
                 exploration, co-creation, and new forms of expression.
               </p>
 
+              <p className="text-lg leading-relaxed">
+                When I&apos;m not building, I&apos;m collecting records, exploring local music scenes, or finding 
+                new ways to stay curious.
+              </p>
+
               <div className="pt-8 border-t border-sand mt-8">
                 <p className="text-sm text-warmgray mb-6">
                   Resume available upon request.

@@ -96,13 +96,18 @@ export default function CreativeWorkPage() {
               <span className="text-sm text-coral mb-4 block">01</span>
               <h2 className="text-2xl md:text-3xl font-light mb-2">Eat, Paint, Love</h2>
               <p className="text-sm text-warmgray mb-6">Narrative essay</p>
+              <p className="text-lg leading-relaxed mb-4">
+                <strong>Independence is often framed as self-sufficiency. In practice, it can be a form of distance.</strong>
+              </p>
+              <p className="text-lg leading-relaxed mb-4">
+                <em>Eat, Paint, Love</em>, published in Stanford Graduate School of Business&apos;s magazine{" "}
+                <em>non-disclosure</em>, draws from my time studying painting in Florence to challenge how we 
+                define strength. Through solo travel and daily studio practice, the idea of independence began 
+                to unravel.
+              </p>
               <p className="text-lg leading-relaxed mb-6">
-                Eat, Paint, Love, published in Stanford Graduate School of Business&apos;s magazine{" "}
-                <em>non-disclosure</em>, reflects on my experience solo traveling in Florence, where 
-                I studied painting as part of an intensive art course. Through that process, the idea 
-                of independence, so often framed as self-sufficiency, began to unravel. This piece 
-                invites readers to rethink not just how we travel, but how we define strength - and 
-                to stop treating the desire for connection as something to overcome.
+                This piece argues that the desire for connection is not a weakness to overcome. <strong>It is 
+                a signal of what actually makes us feel alive.</strong>
               </p>
               <a
                 href="https://drive.google.com/file/d/1ZLkw97QdonrRkDawjWowHWtMYuoklA2q/view?usp=sharing"
@@ -146,12 +151,18 @@ export default function CreativeWorkPage() {
               <span className="text-sm text-coral mb-4 block">02</span>
               <h2 className="text-2xl md:text-3xl font-light mb-2">Love Thy Neighbor</h2>
               <p className="text-sm text-warmgray mb-6">Archival film</p>
+              <p className="text-lg leading-relaxed mb-4">
+                <strong>Digital systems don&apos;t just store history. They shape which versions of it survive.</strong>
+              </p>
+              <p className="text-lg leading-relaxed mb-4">
+                <em>Love Thy Neighbor</em> draws from personal archive to surface a story that would otherwise 
+                be flattened or lost. It captures my mother&apos;s experience at a Catholic high school in 
+                Staten Island in the late 1970s, where the language of faith coexisted with everyday racism.
+              </p>
               <p className="text-lg leading-relaxed">
-                As our world becomes increasingly digitized, questions of who owns history - and whose 
-                stories are preserved - become more urgent. Love Thy Neighbor draws from my own archive 
-                to preserve lived experience as meaning, not just information. It captures my 
-                mother&apos;s experience attending a Catholic high school in Staten Island in the late 
-                1970s, where the promise of Christian values stood in tension with the racism she experienced.
+                As more of our lives are stored, indexed, and surfaced through digital systems, what gets 
+                retained is often what fits cleanly. This project resists that compression. <strong>Memory is 
+                not clean. It holds contradiction, and preserving it means keeping that intact.</strong>
               </p>
             </div>
           </div>

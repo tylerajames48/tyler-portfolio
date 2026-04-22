@@ -36,9 +36,9 @@ const experienceSteps = [
 ];
 
 const insights = [
-  "Participants had varied reactions to the machine - some found it creatively generative, others felt more present without it. These differences suggest technology isn't replacing art, but introducing new ways of engaging with it.",
-  "There is no single \"better\" way to create - only different experiences of making.",
-  "The experience of making can be as meaningful as the artifact itself.",
+  "Technology does not replace creativity. It changes the experience of being creative.",
+  "There is no single \"better\" way to create. Different tools produce different emotional states, not just different outputs.",
+  "The value of creativity is not just in the artifact. It is in the experience of making it.",
 ];
 
 function ImageSlideshow({ images }: { images: string[] }) {
@@ -142,16 +142,24 @@ export default function JoyOfMakingPage() {
             </div>
             <div className="md:col-span-8 space-y-6">
               <p className="text-lg leading-relaxed">
-                The Joy of Making is an interactive installation where participants begin a painting
-                with a robot, then complete it by hand. As they move between the two, a
-                facial-recognition system captures subtle emotional shifts, translating them into a
-                visual record of each creative session.
+                The Joy of Making is an interactive installation that challenges a common assumption: that 
+                better tools lead to better creative outcomes.
+              </p>
+
+              <p className="text-lg leading-relaxed">
+                Participants begin a painting with a robot, then complete it by hand. As they move between 
+                the two, a facial recognition system captures subtle emotional shifts and translates them 
+                into a visual record of the experience.
+              </p>
+
+              <p className="text-lg leading-relaxed">
+                The goal is not to evaluate the final artifact. It is to surface something we usually 
+                ignore: <strong>the emotional experience of making.</strong>
               </p>
 
               <p className="text-lg leading-relaxed text-warmgray">
-                Rather than focusing on the final output, the project surfaces the often-invisible
-                emotional experience of making - exploring how technology reshapes not what we create,
-                but how it feels to create.
+                The project shows that technology does not just change what we create. <strong>It changes 
+                how it feels to create.</strong>
               </p>
             </div>
           </div>

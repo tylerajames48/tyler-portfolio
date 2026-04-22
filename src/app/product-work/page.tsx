@@ -26,8 +26,10 @@ export default function ProductWorkPage() {
                 Income Hub
               </h2>
               <p className="text-warmgray leading-relaxed">
-                A centralized experience for tracking dividends and recurring income on Public.com, 
-                helping users understand how their investment portfolio generates returns over time.
+                On Public.com, Income Hub centralizes dividends and recurring income into a single view, 
+                helping users understand how their investment portfolio generates returns over time. The 
+                product reframes investing from abstract gains to tangible cash flow. Seeing income changes 
+                how users think about long-term value.
               </p>
             </div>
             <div className="md:col-span-7">
@@ -68,9 +70,9 @@ export default function ProductWorkPage() {
                 Brokerage Transfer Flow
               </h2>
               <p className="text-warmgray leading-relaxed">
-                A redesigned onboarding flow for transferring brokerage accounts into Public.com, 
-                simplifying a complex, multi-step process to improve clarity, reduce drop-off, and 
-                increase successful transfers.
+                Transferring a brokerage account is one of the highest-friction moments in investing. 
+                Small points of confusion quickly turn into drop-off. This redesign on Public.com simplified 
+                a complex, multi-step process to significantly reduce drop-off and increase successful transfers.
               </p>
             </div>
           </article>
@@ -83,9 +85,9 @@ export default function ProductWorkPage() {
                 Learn and Earn
               </h2>
               <p className="text-warmgray leading-relaxed mb-6">
-                An interactive product on Public.com that combines short investing lessons with 
-                financial incentives, allowing users to learn key concepts while earning stock - 
-                making financial education more engaging and accessible.
+                Financial education fails when it&apos;s passive. People learn by doing, not reading. On 
+                Public.com, Learn and Earn combines short lessons with financial incentives, allowing 
+                users to engage with investing concepts while earning stock.
               </p>
               <a
                 href="https://medium.com/the-public-blog/a-new-way-to-level-up-your-investing-skills-on-public-d78e232b547"
@@ -127,9 +129,9 @@ export default function ProductWorkPage() {
                 Public.com for Desktop
               </h2>
               <p className="text-warmgray leading-relaxed mb-6">
-                Public&apos;s first web-based trading platform, designed to support more advanced 
-                investing behaviors through expanded portfolio views, asset discovery, and 
-                real-time trading capabilities.
+                As the users on Public.com become more sophisticated, the limitations of mobile-first 
+                design began to show. Public.com&apos;s first desktop platform expanded how users explored 
+                assets, monitored their portfolios, and executed trades in real time.
               </p>
               <a
                 href="https://medium.com/the-public-blog/more-ways-to-build-and-manage-your-portfolio-on-public-2f1a77693d5"

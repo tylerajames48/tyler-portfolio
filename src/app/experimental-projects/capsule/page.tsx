@@ -57,7 +57,7 @@ export default function CapsulePage() {
           </h1>
           
           <p className="text-2xl md:text-3xl font-light text-terracotta mb-8 max-w-3xl leading-relaxed">
-            What if AI expanded taste instead of automating it?
+            What if AI expanded creativity instead of automating it?
           </p>
           
           <div className="w-16 h-px bg-coral mb-8" />
@@ -79,31 +79,44 @@ export default function CapsulePage() {
             </div>
             <div className="md:col-span-8 space-y-6">
               <p className="text-warmgray mb-4">
-                From closet to canvas - reimagining what you already own.
+                From closet to canvas, reimagining what you already own.
               </p>
               
               <p className="text-lg leading-relaxed">
-                Capsule is an AI-powered fashion styling tool built for a one-month behavioral experiment. 
-                The test: could AI support everyday creativity without increasing consumption or cognitive load?
+                Capsule is an AI styling system designed to challenge a core assumption: better 
+                recommendations do not necessarily lead to better creativity.
               </p>
               
               <p className="text-lg leading-relaxed">
-                For 30 days, I used the tool regularly while restricting myself to only what I already owned, 
-                using AI to remix my wardrobe into new combinations. The system treats constraint not as 
-                limitation, but as a catalyst for expression.
+                Instead, I tested a different idea. <strong>Creativity breaks down not from a lack of ideas, 
+                but from the effort required to act on them.</strong>
+              </p>
+              
+              <p className="text-lg leading-relaxed">
+                For 30 days, I restricted myself to my existing wardrobe and used AI to generate new 
+                combinations. No new purchases. No infinite scrolling. Just recombination.
+              </p>
+              
+              <p className="text-lg leading-relaxed">
+                The result: <strong>constraint did not limit creativity. It activated it.</strong>
+              </p>
+              
+              <p className="text-lg leading-relaxed">
+                Capsule treats AI as a collaborator, not a decision-maker. It expands the option space 
+                without collapsing it into a default.
               </p>
               
               <p className="text-lg leading-relaxed text-warmgray">
-                This experiment formed the basis of &quot;Seeing the Same Things, Differently,&quot; an essay published in{" "}
+                This experiment became the foundation for{" "}
                 <a 
                   href="https://drive.google.com/file/d/195N1DpQqBAR0WzRQubMOz0RPiSU412cc/view"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="italic text-terracotta hover:text-coral transition-colors"
                 >
-                  The Future of Flourishing: AI and Human Flourishing at Stanford
+                  &quot;Seeing the Same Things, Differently,&quot;
                 </a>{" "}
-                (ed. Dr. Jennifer Aaker et al.).
+                published in <em>The Future of Flourishing: AI and Human Flourishing at Stanford</em> (ed. Dr. Jennifer Aaker et al.).
               </p>
             </div>
           </div>
