@@ -80,8 +80,8 @@ export default function AboutPage() {
               </p>
 
               <p className="text-lg leading-relaxed">
-                When I&apos;m not building, I&apos;m collecting records, exploring local music scenes, or finding 
-                new ways to stay curious.
+                When I&apos;m not building, I&apos;m collecting records, exploring local craft markets, or in the 
+                middle of reading two or three books at once.
               </p>
 
               <div className="pt-8 border-t border-sand mt-8">
