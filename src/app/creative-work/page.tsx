@@ -155,7 +155,7 @@ export default function CreativeWorkPage() {
                 <strong>Digital systems don&apos;t just store history. They shape which versions of it survive.</strong>
               </p>
               <p className="text-lg leading-relaxed mb-4">
-                <em>Love Thy Neighbor</em> draws from personal archive to surface a story that would otherwise 
+                Love Thy Neighbor draws from personal archive to surface a story that would otherwise 
                 be flattened or lost. It captures my mother&apos;s experience at a Catholic high school in 
                 Staten Island in the late 1970s, where the language of faith coexisted with everyday racism.
               </p>
