@@ -1,3 +1,7 @@
+'use client';
+
+import { useState } from 'react';
+
 const insights = [
   "As AI systems scale, they don't just reflect dominant ways of seeing - they help stabilize and reproduce them at scale. What looks like \"generation\" is often repetition of learned patterns.",
   "Even when prompted with non-Western contexts, Western patterns still shape the output.",
@@ -7,6 +11,7 @@ const insights = [
 const examples = [
   {
     id: 1,
+    title: "The model treats Indigenous culture as something historical, unable to imagine it as a living, evolving future.",
     prompt: "Imagine a future Haudenosaunee nation several generations ahead, during a seasonal agricultural ceremony marking the transition between planting and harvest: women elders and Clan Mothers lead the gathering, formally acknowledging shifts in land stewardship, food cycles, and communal responsibility as part of governance rather than religion; men prepare offerings and shared food in the same space, their labor visible but uncentered; no stage, no audience, no performers—participants arranged in a circular formation that dissolves hierarchy; longhouse-inspired open architecture adapted for future ecological systems, natural and adaptive light responding to the season; wide documentary shot, restrained color palette, photorealistic realism, cinematic still, authority expressed through collective presence rather than spectacle; restrained but unmistakable futurism, obvious future technologies.",
     beforeImage: "/images/experimental/rewriting-the-rules/before1.png",
     beforeDescription: "The outputs defaulted to historical or traditional imagery, failing to incorporate any visible futurism - despite explicit prompting - resulting in scenes that reflect the past rather than imagining Indigenous governance, technology, and space in the future.",
@@ -17,6 +22,7 @@ const examples = [
   },
   {
     id: 2,
+    title: "Despite prompting a culture where women already hold primary leadership roles, the model recenters men and falls back on stereotypical historical imagery.",
     prompt: "Imagine a future Haudenosaunee nation at the moment a decision about conflict is being made: Clan Mothers deliberate whether to authorize or prevent warfare, seated in a circular governance space, while male leaders wait without speaking; cinematic documentary still, power is expressed through restraint and decision-making; restrained but unmistakable futurism, subtle future technologies, 4k, real humans, documentary style. Should focus on one of the Clan Mothers.",
     beforeImage: "/images/experimental/rewriting-the-rules/before2.png",
     beforeDescription: "The images defaulted to stereotypical and historically coded Native American imagery, failing to depict a specific Haudenosaunee context or any meaningful futurism, while also misrepresenting leadership by centering male figures and slipping into warrior aesthetics rather than governance.",
@@ -26,6 +32,34 @@ const examples = [
     afterDescription: "The intervention helped the model correctly center a Clan Mother as the authority figure, producing more accurate expressions of leadership, maintaining visible futurism, and avoiding defaulting to male leaders - while better reflecting gender dynamics within the scene.",
   },
 ];
+
+function PromptDropdown({ prompt }: { prompt: string }) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <div className="mt-4">
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="flex items-center gap-2 text-sm text-terracotta hover:text-coral transition-colors"
+      >
+        <span>{isOpen ? 'Hide' : 'View'} full prompt</span>
+        <svg
+          className={`w-4 h-4 transition-transform ${isOpen ? 'rotate-180' : ''}`}
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+      {isOpen && (
+        <p className="mt-3 text-sm leading-relaxed text-warmgray italic bg-cream/50 p-4 rounded">
+          {prompt}
+        </p>
+      )}
+    </div>
+  );
+}
 
 export default function RewritingTheRulesPage() {
   return (
@@ -135,10 +169,11 @@ export default function RewritingTheRulesPage() {
               <div key={example.id} className="border-t border-sand pt-12">
                 {/* Example header */}
                 <div className="mb-10">
-                  <span className="text-sm text-coral mb-4 block">Example 0{example.id}</span>
-                  <p className="text-base leading-relaxed text-warmgray italic">
-                    Prompt: {example.prompt}
-                  </p>
+                  <span className="text-sm text-coral mb-2 block">Example 0{example.id}</span>
+                  <h3 className="text-xl md:text-2xl font-light leading-snug mb-2">
+                    {example.title}
+                  </h3>
+                  <PromptDropdown prompt={example.prompt} />
                 </div>
 
                 {/* Three-column comparison */}
