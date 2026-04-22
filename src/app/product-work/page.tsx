@@ -26,10 +26,11 @@ export default function ProductWorkPage() {
                 Income Hub
               </h2>
               <p className="text-warmgray leading-relaxed">
-                On Public.com, Income Hub centralizes dividends and recurring income into a single view, 
-                helping users understand how their investment portfolio generates returns over time. The 
-                product reframes investing from abstract gains to tangible cash flow. Seeing income changes 
-                how users think about long-term value.
+                Most investment portfolios generate income. Few products make it visible. On Public.com, 
+                Income Hub centralizes dividends and recurring income into a single view, helping users 
+                understand how their portfolio generates returns over time. The product reframes investing 
+                from abstract gains to tangible cash flow. Seeing income changes how users think about 
+                long-term value.
               </p>
             </div>
             <div className="md:col-span-7">
@@ -129,7 +130,7 @@ export default function ProductWorkPage() {
                 Public.com for Desktop
               </h2>
               <p className="text-warmgray leading-relaxed mb-6">
-                As the users on Public.com become more sophisticated, the limitations of mobile-first 
+                As the users on Public.com became more sophisticated, the limitations of mobile-first 
                 design began to show. Public.com&apos;s first desktop platform expanded how users explored 
                 assets, monitored their portfolios, and executed trades in real time.
               </p>
@@ -155,9 +156,9 @@ export default function ProductWorkPage() {
                 Archived Jobs (LinkedIn)
               </h2>
               <p className="text-warmgray leading-relaxed">
-                An automated experience that moves inactive listings into an archive, giving users 
-                a clearer view of active opportunities while preserving past roles for reference 
-                and follow-up.
+                Job search quickly becomes overwhelming when outdated listings remain in view. This 
+                feature automatically moves inactive roles into an archive, giving users a clearer 
+                view of active opportunities while preserving past roles for reference and follow-up.
               </p>
             </div>
             <div className="md:col-span-7">
