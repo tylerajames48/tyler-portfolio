@@ -189,6 +189,24 @@ export default function JoyOfMakingPage() {
         </div>
       </section>
 
+      {/* Gallery Section - Final Outputs */}
+      <section className="py-16 md:py-24 bg-peach/30">
+        <div className="max-w-4xl mx-auto px-6 md:px-12 lg:px-16">
+          <div className="mb-12">
+            <p className="text-sm uppercase tracking-[0.2em] text-warmgray mb-4">
+              Participant Outputs
+            </p>
+            <p className="text-lg text-warmgray max-w-2xl mb-6">
+              The visual style of the final output is inspired by aura portrait photography, which 
+              renders a person&apos;s emotional state or inner energy as fields of color and light.
+            </p>
+            <div className="w-12 h-px bg-coral" />
+          </div>
+          
+          <ImageSlideshow images={participantOutputs} />
+        </div>
+      </section>
+
       {/* Audience Experience Section */}
       <section className="py-16 md:py-24 bg-peach/20">
         <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
@@ -216,24 +234,6 @@ export default function JoyOfMakingPage() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Gallery Section - Final Outputs */}
-      <section className="py-16 md:py-24 bg-peach/30">
-        <div className="max-w-4xl mx-auto px-6 md:px-12 lg:px-16">
-          <div className="mb-12">
-            <p className="text-sm uppercase tracking-[0.2em] text-warmgray mb-4">
-              Participant Outputs
-            </p>
-            <p className="text-lg text-warmgray max-w-2xl mb-6">
-              The visual style of the final output is inspired by aura portrait photography, which 
-              renders a person&apos;s emotional state or inner energy as fields of color and light.
-            </p>
-            <div className="w-12 h-px bg-coral" />
-          </div>
-          
-          <ImageSlideshow images={participantOutputs} />
         </div>
       </section>
 
