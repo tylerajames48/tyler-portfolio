@@ -83,7 +83,7 @@ export default function CapsulePage() {
               </p>
               
               <p className="text-lg leading-relaxed">
-                Capsule is an AI styling system designed to challenge a core assumption: better 
+                Capsule is an AI styling system I designed and built to challenge a core assumption: better 
                 recommendations do not necessarily lead to better creativity.
               </p>
               
