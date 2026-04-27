@@ -111,23 +111,36 @@ export default function JoyOfMakingPage() {
       {/* Hero Section */}
       <section className="py-16 md:py-24 bg-peach/30">
         <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
-          <p className="text-sm uppercase tracking-[0.2em] text-warmgray mb-4">
-            Experiments
-          </p>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight mb-8">
-            The Joy of Making
-          </h1>
-          
-          <p className="text-2xl md:text-3xl font-light text-terracotta mb-8 max-w-3xl leading-relaxed">
-            Is creativity defined by the tool, the process, or the feeling of being alive while
-            making something?
-          </p>
-          
-          <div className="w-16 h-px bg-coral mb-8" />
-          
-          <p className="text-sm text-warmgray">
-            Tools: Stretch Robot, Python, OpenCV, dlib, Webcam, DALL·E, Paint, Sponge
-          </p>
+          <div className="grid md:grid-cols-12 gap-8 md:gap-12 items-center">
+            <div className="md:col-span-7">
+              <p className="text-sm uppercase tracking-[0.2em] text-warmgray mb-4">
+                Experiments
+              </p>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight mb-8">
+                The Joy of Making
+              </h1>
+              
+              <p className="text-2xl md:text-3xl font-light text-terracotta mb-8 leading-relaxed">
+                Is creativity defined by the tool, the process, or the feeling of being alive while
+                making something?
+              </p>
+              
+              <div className="w-16 h-px bg-coral mb-8" />
+              
+              <p className="text-sm text-warmgray">
+                Tools: Stretch Robot, Python, OpenCV, dlib, Webcam, DALL·E, Paint, Sponge
+              </p>
+            </div>
+            <div className="md:col-span-5">
+              <div className="rounded-lg overflow-hidden opacity-90">
+                <img 
+                  src="/images/experimental/joy-of-making-home.png" 
+                  alt="The Joy of Making"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
