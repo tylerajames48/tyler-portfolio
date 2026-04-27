@@ -78,32 +78,27 @@ export default function CapsulePage() {
               </p>
             </div>
             <div className="md:col-span-8 space-y-6">
-              <p className="text-warmgray mb-4">
-                From closet to canvas, reimagining what you already own.
+              <p className="text-lg leading-relaxed">
+                Capsule is an AI fashion styling system I designed and built to challenge a common 
+                assumption: that <strong>AI reduces creativity</strong> by flattening ideas into predictable outputs.
               </p>
               
               <p className="text-lg leading-relaxed">
-                Capsule is an AI styling system I designed and built to challenge a core assumption: better 
-                recommendations do not necessarily lead to better creativity.
+                I explored a different approach - what it would look like for AI to support <strong>human 
+                creativity</strong> instead?
               </p>
               
               <p className="text-lg leading-relaxed">
-                Instead, I tested a different idea. <strong>Creativity breaks down not from a lack of ideas, 
-                but from the effort required to act on them.</strong>
+                For 30 days, I used only my existing wardrobe and had AI generate outfits centered on a 
+                single item. <strong>No new purchases. No scrolling. Just recombination.</strong>
               </p>
               
               <p className="text-lg leading-relaxed">
-                For 30 days, I restricted myself to my existing wardrobe and used AI to generate new 
-                combinations. No new purchases. No infinite scrolling. Just recombination.
+                <strong>Constraint didn&apos;t limit creativity. It activated it.</strong>
               </p>
               
               <p className="text-lg leading-relaxed">
-                The result: <strong>constraint did not limit creativity. It activated it.</strong>
-              </p>
-              
-              <p className="text-lg leading-relaxed">
-                Capsule treats AI as a collaborator, not a decision-maker. It expands the option space 
-                without collapsing it into a default.
+                Capsule treats AI as a collaborator, expanding possibilities without deciding for you.
               </p>
               
               <p className="text-lg leading-relaxed text-warmgray">

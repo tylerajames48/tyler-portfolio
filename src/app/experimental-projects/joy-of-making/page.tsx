@@ -197,8 +197,9 @@ export default function JoyOfMakingPage() {
               Participant Outputs
             </p>
             <p className="text-lg text-warmgray max-w-2xl mb-6">
-              The visual style of the final output is inspired by aura portrait photography, which 
-              renders a person&apos;s emotional state or inner energy as fields of color and light.
+              Each output is generated using DALL·E, based on emotional data captured through real-time 
+              facial tracking. The visual style is inspired by aura portrait photography, rendering 
+              emotional states as fields of color and light.
             </p>
             <div className="w-12 h-px bg-coral" />
           </div>
