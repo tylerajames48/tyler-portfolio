@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
 import AbstractBackground from "@/components/AbstractBackground";
@@ -33,6 +34,7 @@ export default function RootLayout({
         <AbstractBackground />
         <Navigation />
         <main className="flex-1">{children}</main>
+        <Analytics />
       </body>
     </html>
   );
