@@ -132,7 +132,7 @@ export default function CreativeWorkPage() {
         </div>
       </section>
 
-      {/* Love Thy Neighbor */}
+      {/* Love Thy Neighbour */}
       <section className="py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
           <div className="grid md:grid-cols-12 gap-8 md:gap-12 items-center">
@@ -141,7 +141,7 @@ export default function CreativeWorkPage() {
                 <iframe
                   className="w-full h-full"
                   src="https://www.youtube.com/embed/-kiVJD-xW1A"
-                  title="Love Thy Neighbor"
+                  title="Love Thy Neighbour"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 />
@@ -149,13 +149,13 @@ export default function CreativeWorkPage() {
             </div>
             <div className="md:col-span-5 md:order-2">
               <span className="text-sm text-coral mb-4 block">02</span>
-              <h2 className="text-2xl md:text-3xl font-light mb-2">Love Thy Neighbor</h2>
+              <h2 className="text-2xl md:text-3xl font-light mb-2">Love Thy Neighbour</h2>
               <p className="text-sm text-warmgray mb-6">Archival film</p>
               <p className="text-lg leading-relaxed mb-4">
                 <strong>Digital systems don&apos;t just store history. They shape which versions of it survive.</strong>
               </p>
               <p className="text-lg leading-relaxed mb-4">
-                Love Thy Neighbor draws from personal archive to surface a story that would otherwise 
+                Love Thy Neighbour draws from personal archive to surface a story that would otherwise 
                 be flattened or lost. It captures my mother&apos;s experience at a Catholic high school in 
                 Staten Island in the late 1970s, where the language of faith coexisted with everyday racism.
               </p>
