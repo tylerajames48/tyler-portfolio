@@ -62,7 +62,7 @@ export default function AboutPage() {
                   Public.com
                 </a>
                 , I built and led the company&apos;s first Growth product team, defining the roadmap and 
-                executing alongside a small cross-functional team to drive sustainable revenue. I led the 
+                executing alongside a cross-functional team to drive sustainable revenue. I led the 
                 development of products spanning investment recommendations, desktop trading, and Learn & 
                 Earn - reframing financial education as participation rather than instruction.
               </p>
