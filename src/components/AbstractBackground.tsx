@@ -1,11 +1,17 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import { usePathname } from 'next/navigation';
 
 export default function AbstractBackground() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const pathname = usePathname();
+  const isHomepage = pathname === '/';
 
   useEffect(() => {
+    // Don't render animated background on homepage
+    if (isHomepage) return;
+
     const canvas = canvasRef.current;
     if (!canvas) return;
 
@@ -141,7 +147,12 @@ export default function AbstractBackground() {
       window.removeEventListener('resize', resize);
       cancelAnimationFrame(animationId);
     };
-  }, []);
+  }, [isHomepage]);
+
+  // Don't render canvas on homepage
+  if (isHomepage) {
+    return null;
+  }
 
   return (
     <canvas
