@@ -33,7 +33,7 @@ export default function Home() {
               </p>
               <p className="text-lg md:text-xl leading-relaxed">
                 I see AI as a creative medium - like paint or clay - where the outcome depends on 
-                who&apos;s shaping it. My work spans fintech and fashion tech, building systems that 
+                who&apos;s shaping it. My work spans from fintech to fashion tech, building systems that 
                 make abstract ideas tangible and give people new ways to create, not just faster ways to decide.
               </p>
             </div>
